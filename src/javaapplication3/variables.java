@@ -43,6 +43,17 @@ public class variables {
             finalString=String.valueOf(finalValue);
             return(finalString);
         }
+        else if (operation=="/")
+        {
+            finalValue=number1/number2;
+            finalString=String.valueOf(finalValue);
+            return(finalString);
+        }
+        else if(operation=="^"){
+            finalValue=(number1*number1);
+            finalString=String.valueOf(finalValue);
+            return(finalString);
+        }
         else
             return("error");
     }
